@@ -1,5 +1,6 @@
 import React from "react";
 import Section from "./Section";
+import ProfilePic from "../images/emma-profile-pic.png";
 
 class Bio extends React.Component {
     render() {
@@ -11,9 +12,12 @@ class Bio extends React.Component {
         and am excited to continue to diversify my skills within the technology industry.`;
 
         return (
-            <Section title={bioTitle}>
-                {bioText}
-            </Section>
+            <div>
+                <img src={ProfilePic} className="profile-img" />
+                <Section title={bioTitle}>
+                    {bioText}
+                </Section>
+            </div>
         );
     }
 }
