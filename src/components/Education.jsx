@@ -4,7 +4,7 @@ import SectionRow from "./SectionRow";
 
 class Education extends React.Component {
     render() {
-        const title = "Education";
+        const title = "Education.";
 
         const universityTitle = "MSci Natural Sciences | Physics & Molecular Cell Biology | UCL | 1st Class Honors | 2015-2019";
         const universityMastersProject = "Masters Project: The characterization of a bacterial biosensor using a mathematical and experimental approach.";
@@ -21,7 +21,7 @@ class Education extends React.Component {
         const academicAchievementPrize = "Lily Anne Rogers Prize for Academic Achievement, 2014";
 
         return (
-            <Section title={title}>
+            <Section title={title} id="education">
                 <SectionRow subheader={universityTitle}>
                     <ul>
                         <li>{universityMastersProject}</li>

@@ -8,13 +8,14 @@ import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
 import SkillsInterests from './components/SkillsInterests';
 import ComputationalProjects from './components/ComputerProjects';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <HeaderImage />
       <Navigation />
-      <Container>
+      <Container className="content-container">
         <Bio />
         <hr />
         <Education />
@@ -25,6 +26,7 @@ function App() {
         <hr />
         <ComputationalProjects />
       </Container>
+      <Footer />
     </div>
   );
 }

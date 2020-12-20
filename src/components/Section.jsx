@@ -4,9 +4,11 @@ import {Container} from "react-bootstrap";
 class Section extends React.Component {
     render() {
         return (
-            <Container className="section-div">
-                <div className="section-title">{this.props.title}</div>
-                <div className="section-rows">
+            <Container className={`${this.props.className}-section section-container`}>
+                <div className={`${this.props.className}-section-title section-title`}>
+                    {this.props.title}
+                </div>
+                <div className={`${this.props.className}-section-rows section-rows`}>
                     {this.props.children}
                 </div>
             </Container>

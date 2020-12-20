@@ -5,14 +5,14 @@ import SectionRow from "./SectionRow";
 
 class WorkExperience extends React.Component {
   render() {
-    const title = "Work Experience";
+    const title = "Work Experience.";
 
     const dbTitle = "Technology Graduate Analyst | Deutsche Bank | London | 08/2019-Ongoing";
-    const dbRotation1Title = "Rotation 1: GTB Trade Finance and Lending, De-risking and Limit Management";
+    const dbRotation1Title = <li><strong>Rotation 1:</strong> GTB Trade Finance and Lending, De-risking and Limit Management</li>;
     const tfPoint1 = "Helped to create Team City build pipelines and Fabric environments to help automate the CICD pipeline wihtin my team.";
     const tfPoint2 = "BDD end-to-end test writing using JBehave";
 
-    const dbRotation2Title = "Rotation 2:GTB Client Connectivity, Cash Manager Next Generation.";
+    const dbRotation2Title = <li><strong>Rotation 2:</strong> GTB Client Connectivity, Cash Manager Next Generation.</li>;
     const cmngPoint1 = "Hands on development in Java using Spring Boot.";
     const cmngPoint2 = "Development of a Backend-for-frontend component in a microservice architecture.";
     const cmngPoint3 = "Development of an online banking application in React and Typescript."
@@ -51,12 +51,12 @@ class WorkExperience extends React.Component {
       <Section title={title} clasSName="work-experience-section">
         <SectionRow subheader={dbTitle} className="we-db-row">
           <ul className="cv-list-wrapper">
-            <li>{dbRotation1Title}</li>
+            {dbRotation1Title}
             <ul className="cv-list">
               <li>{tfPoint1}</li>
               <li>{tfPoint2}</li>
             </ul>
-            <li>{dbRotation2Title}</li>
+            {dbRotation2Title}
             <ul className="cv-list">
               <li>{cmngPoint1}</li>
               <li>{cmngPoint2}</li>
@@ -66,7 +66,7 @@ class WorkExperience extends React.Component {
         </SectionRow>
         <SectionRow subheader={uaemTitle} className="we-uaem-row">
           <ul className="cv-list">
-            <li>uaemPoint1</li>
+            <li>{uaemPoint1}</li>
             <li>{uaemPoint2}</li>
             <li>{uaemPoint3}</li>
           </ul>

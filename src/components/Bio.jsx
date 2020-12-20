@@ -14,7 +14,7 @@ class Bio extends React.Component {
         return (
             <div>
                 <img src={ProfilePic} className="profile-img" />
-                <Section title={bioTitle}>
+                <Section title={bioTitle} className="bio">
                     {bioText}
                 </Section>
             </div>
