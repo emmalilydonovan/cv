@@ -34,6 +34,11 @@
   text-align: center;
 }
 
+.bio-section-rows {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
 .content-container {
   padding-top: 50px;
   text-align: center;
@@ -125,8 +130,10 @@ a.nav-link {
   color: #2f65ad !important;
 }
 
+
+
 .nav-link:hover {
-  color: #f16821 !important;
+  color:#49d5ff !important;
 }
 
 
@@ -162,22 +169,15 @@ a.nav-link {
 
 .btn {
   border-radius: 10px;
-  border-color: #2eb2ff;
+  border-color: #15b5ff;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  font-weight: 100;
   padding: 20px;
-  background-color: #2eb2ff;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  color: #FFFFFF;
-  text-decoration: none;
+  background-color: #15b5ff;
+  margin-top: 20px;
 }
 
 .btn:hover {
-  background: #019fcf;
-  border-color: #019fcf;
-  text-decoration: none;
-  color: white;
+  background:#63e8ff;
+  border-color: #63e8ff;
 }
