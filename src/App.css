@@ -4,26 +4,30 @@
   text-align: center;
 }
 
-.top-img-container {
-  background-color: #e8e2db;
+.butterflies {
+  width: 100%;
+}
+
+.top-img-container {    
   position: relative;
-  padding-top: 80px;
+  justify-content: center;
 }
 
-.top-cloud {
+.im-emma {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  top: 100px;
+  left: 200px;
 }
 
-.bottom-cloud {
+.sub-title-im-emma {
   position: absolute;
-  left: 300px;
-  bottom: 250px;
+  top: 650px;
+  right: 350px;
+  color: #011f46;
 }
 
 .profile-img {
-  width: 30%;
+  width: 20%;
 }
 
 .bio-section-rows.section-rows {
@@ -40,8 +44,8 @@
 h1{
   margin: 80px auto 0 auto;
   font-family: 'Dawning of a New Day', cursive;
-  font-size: 5.625rem;
-  color: #2f65ad;
+  font-size: 8.625rem;
+  color: #1c5db3;
   font-weight: bolder;
   margin-left: 0px;
 }
@@ -50,10 +54,9 @@ h1{
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #2f65ad;
-  font-weight: normal;
+  color: #2583ff;
+  font-weight: bolder;
   padding-bottom: 10px;
-  /* margin-left: -100px; */
 }
 
 h2.sub-title {
@@ -78,14 +81,14 @@ strong {
 .section-subheader {
   padding-top: 1rem auto 1rem auto;
   font-family: 'Montserrat', sans-serif;
-  color: #f16821;
+  color: #004db3;
   font-weight: bolder;
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #e8e2db;
+  border-color: #64c6ff;
   border-width: 6px;
   width: 4%;
   margin: 40px auto 40px auto;
@@ -128,8 +131,18 @@ a.nav-link {
 
 
 .bottom-container {
-  background-color: #2f65ad;
+  background-color: #157aff;
   padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: white;
+}
+
+.footer-link:hover {
+  color:#4db8ff;
+  color:#4db8ff;
+  text-decoration: none;
 }
 
 .attribute-anchor {
@@ -140,4 +153,31 @@ a.nav-link {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  border-radius: 10px;
+  border-color: #2eb2ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #2eb2ff;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #019fcf;
+  border-color: #019fcf;
+  text-decoration: none;
+  color: white;
 }

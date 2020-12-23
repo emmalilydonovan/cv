@@ -8,7 +8,7 @@ class SkillsInterests extends React.Component {
         const title = "My Skills.";
 
         const compTitle = "Technical Skills";
-        const compDesc = "Java, Python, C++, MATLAB, JavaScript (beginner), HTML5 & CSS (beginner).";
+        const compDesc = "Java, React, Typescript, JavaScript, Python, HTML5 & CSS, C++,MATLAB.";
 
         const labTitle = "Laboratory Skills";
         const labDesc = "Trasfection, Elecrophoresis, PRC, DNA cloning.";
