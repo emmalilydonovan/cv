@@ -1,21 +1,67 @@
 import React from "react";
-import { Nav, Navbar} from "react-bootstrap";
-import {Link} from "react-scroll";
+import {Navbar} from "react-bootstrap";
+import Scroll from 'react-scroll'
+const ScrollLink = Scroll.Link
 
 class Navigation extends React.Component {
     render() {
         return (
             <Navbar>
-                <Nav className="mr-auto" id="navigation">
-                    <Nav.Link href="#Bio">Bio</Nav.Link>
-                    <Nav.Link href="#education">Education</Nav.Link>
-                    <Nav.Link href="#work-exp">Work Experience</Nav.Link>
-                    <Nav.Link href="#skills-interests">Skills & Interests</Nav.Link>
-                    <Link to="computationalProjects" smooth={true} dur={1000}>Computational Projects</Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
-                    <Nav.Link href="#cv-download">My CV PDF</Nav.Link>
-                </Nav>
+                <ScrollLink
+                    to="bio-section"
+                    activeClass="active-nav" 
+                    spy={true} 
+                    smooth={true}
+                    offset={-100}
+                >
+                    Bio
+                </ScrollLink>
+                <ScrollLink
+                    to="education-section"
+                    activeClass="active-nav" 
+                    spy={true} 
+                    smooth={true}
+                    offset={-50}
+                >
+                    Education
+                </ScrollLink>
+                <ScrollLink
+                    to="work-experience-section"
+                    activeClass="active-nav" 
+                    spy={true} 
+                    smooth={true}
+                    offset={-50}
+                >
+                    Work Experience
+                </ScrollLink>
+                <ScrollLink
+                    to="skills-interests-section"
+                    activeClass="active-nav" 
+                    spy={true} 
+                    smooth={true}
+                    offset={-50}
+                >
+                    Skills & Interests
+                </ScrollLink>
+                <ScrollLink
+                    to="computational-projects-section"
+                    activeClass="active-nav" 
+                    spy={true} 
+                    smooth={true}
+                    offset={-50}
+                >
+                    Compulational Projects
+                </ScrollLink>
+                <ScrollLink
+                    to="contact-section"
+                    activeClass="active-nav" 
+                    spy={true} 
+                    smooth={true}
+                >
+                    Contact
+                </ScrollLink>
             </Navbar>
+            
         );
     }
 }

@@ -12,7 +12,7 @@ class Bio extends React.Component {
         and am excited to continue to diversify my skills within the technology industry.`;
 
         return (
-            <div>
+            <div id="bio-section">
                 <img src={ProfilePic} className="profile-img" />
                 <Section title={bioTitle} className="bio">
                     {bioText}

@@ -23,23 +23,25 @@ class ComputerProjects extends React.Component {
         const nnDesc = "My first expeirnece in coding came in my second year of university where I had to develop a simple neural network in MATLAB for the classification and diagnosis of breast cancer data.";
 
         return (
-            <Section title={title} className="comp-proj-section">
-                <SectionRow subheader={grnDstTitle}>
-                    {grnDstDesc}
-                </SectionRow>
-                <SectionRow subheader={hpcTitle}>
-                    {hpcDesc}
-                </SectionRow>
-                <SectionRow subheader={sirTitle}>
-                    {sirDesc}
-                </SectionRow>
-                <SectionRow subheader={physLabTitle}>
-                    {physLabDesc}
-                </SectionRow>
-                <SectionRow subheader={nnTitle}>
-                    {nnDesc}
-                </SectionRow>
-            </Section>
+            <div id="computational-projects-section">
+                <Section title={title} className="comp-proj-section">
+                    <SectionRow subheader={grnDstTitle}>
+                        {grnDstDesc}
+                    </SectionRow>
+                    <SectionRow subheader={hpcTitle}>
+                        {hpcDesc}
+                    </SectionRow>
+                    <SectionRow subheader={sirTitle}>
+                        {sirDesc}
+                    </SectionRow>
+                    <SectionRow subheader={physLabTitle}>
+                        {physLabDesc}
+                    </SectionRow>
+                    <SectionRow subheader={nnTitle}>
+                        {nnDesc}
+                    </SectionRow>
+                </Section>
+            </div>
         );
     }
 }

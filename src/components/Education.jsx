@@ -21,27 +21,29 @@ class Education extends React.Component {
         const academicAchievementPrize = "Lily Anne Rogers Prize for Academic Achievement, 2014";
 
         return (
-            <Section title={title} id="education">
-                <SectionRow subheader={universityTitle}>
-                    <ul>
-                        <li>{universityMastersProject}</li>
-                        <li>{universityThirdYearProject}</li>
-                    </ul>
-                </SectionRow>
-                <SectionRow subheader={highSchoolTitle}>
-                    <ul>
-                        <li>{aLevels}</li>
-                        <li>{gcses}</li>
-                    </ul>
-                </SectionRow>
-                <SectionRow subheader={awardsTitle}>
-                    <ul>
-                        <li>{biologyPrize}</li>
-                        <li>{dOfE}</li>
-                        <li>{academicAchievementPrize}</li>
-                    </ul>
-                </SectionRow>
-            </Section>
+            <div id="education-section">
+                <Section title={title} name="education-scroll">
+                    <SectionRow subheader={universityTitle}>
+                        <ul>
+                            <li>{universityMastersProject}</li>
+                            <li>{universityThirdYearProject}</li>
+                        </ul>
+                    </SectionRow>
+                    <SectionRow subheader={highSchoolTitle}>
+                        <ul>
+                            <li>{aLevels}</li>
+                            <li>{gcses}</li>
+                        </ul>
+                    </SectionRow>
+                    <SectionRow subheader={awardsTitle}>
+                        <ul>
+                            <li>{biologyPrize}</li>
+                            <li>{dOfE}</li>
+                            <li>{academicAchievementPrize}</li>
+                        </ul>
+                    </SectionRow>
+                </Section>
+            </div>
         );
     }
 }

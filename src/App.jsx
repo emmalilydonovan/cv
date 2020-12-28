@@ -27,7 +27,7 @@ class App extends React.Component {
           <hr />
           <SkillsInterests />
           <hr />
-          <ComputationalProjects id="computationalProjects"/>
+          <ComputationalProjects />
           <hr />
           <EmailMe />
         </Container>

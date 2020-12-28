@@ -1,5 +1,4 @@
 import React from "react";
-import {Row } from 'react-bootstrap';
 import Section from "./Section";
 import SectionRow from "./SectionRow";
 
@@ -48,64 +47,66 @@ class WorkExperience extends React.Component {
 
 
     return (
-      <Section title={title} clasSName="work-experience-section">
-        <SectionRow subheader={dbTitle} className="we-db-row">
-          <ul className="cv-list-wrapper">
-            {dbRotation1Title}
-            <ul className="cv-list">
-              <li>{tfPoint1}</li>
-              <li>{tfPoint2}</li>
+      <div id="work-experience-section">
+        <Section title={title} clasSName="work-experience-section">
+          <SectionRow subheader={dbTitle} className="we-db-row">
+            <ul className="cv-list-wrapper">
+              {dbRotation1Title}
+              <ul className="cv-list">
+                <li>{tfPoint1}</li>
+                <li>{tfPoint2}</li>
+              </ul>
+              {dbRotation2Title}
+              <ul className="cv-list">
+                <li>{cmngPoint1}</li>
+                <li>{cmngPoint2}</li>
+                <li>{cmngPoint3}</li>
+              </ul>
             </ul>
-            {dbRotation2Title}
+          </SectionRow>
+          <SectionRow subheader={uaemTitle} className="we-uaem-row">
             <ul className="cv-list">
-              <li>{cmngPoint1}</li>
-              <li>{cmngPoint2}</li>
-              <li>{cmngPoint3}</li>
+              <li>{uaemPoint1}</li>
+              <li>{uaemPoint2}</li>
+              <li>{uaemPoint3}</li>
             </ul>
-          </ul>
-        </SectionRow>
-        <SectionRow subheader={uaemTitle} className="we-uaem-row">
-          <ul className="cv-list">
-            <li>{uaemPoint1}</li>
-            <li>{uaemPoint2}</li>
-            <li>{uaemPoint3}</li>
-          </ul>
-        </SectionRow>
-        <SectionRow subheader={lmbcTitle} className="we-lmcb-row">
-          <ul className="cv-list">
-            <li>{lmbcPoint1}</li>
-            <li>{lmbcPoint2}</li>
-          </ul>
-        </SectionRow>
-        <SectionRow subheader={biopharmaTitle} className="we-biopharma-row">
-          <ul className="cv-list">
-            <li>{biopharmaPoint1}</li>
-            <li>{biopharmaPoint2}</li>
-            <li>{biopharmaPoint3}</li>
-          </ul>
-        </SectionRow>
-        <SectionRow subheader={plazaLatinaTitle} className="we-plazaLatina-row">
-          <ul className="cv-list">
-            <li>{plazaLatinaPoint1}</li>
-            <li>{plazaLatinaPoint2}</li>
-            <li>{plazaLatinaPoint3}</li>
-          </ul>
-        </SectionRow>
-        <SectionRow subheader={globalCitizenTitle} className="we-gc-row">
-          <ul className="cv-list">
-            <li>{globalCitizenPoint1}</li>
-            <li>{globalCitizenPoint2}</li>
-          </ul>
-        </SectionRow>
-        <SectionRow subheader={nuffieldTitle} className="we-nuffield-row">
-          <ul className="cv-list">
-            <li>{nuffieldPoint1}</li>
-            <li>{nuffieldPoint2}</li>
-            <li>{nuffieldPoint3}</li>
-            <li>{nuffieldPoint4}</li>
-          </ul>
-        </SectionRow>
-      </Section>
+          </SectionRow>
+          <SectionRow subheader={lmbcTitle} className="we-lmcb-row">
+            <ul className="cv-list">
+              <li>{lmbcPoint1}</li>
+              <li>{lmbcPoint2}</li>
+            </ul>
+          </SectionRow>
+          <SectionRow subheader={biopharmaTitle} className="we-biopharma-row">
+            <ul className="cv-list">
+              <li>{biopharmaPoint1}</li>
+              <li>{biopharmaPoint2}</li>
+              <li>{biopharmaPoint3}</li>
+            </ul>
+          </SectionRow>
+          <SectionRow subheader={plazaLatinaTitle} className="we-plazaLatina-row">
+            <ul className="cv-list">
+              <li>{plazaLatinaPoint1}</li>
+              <li>{plazaLatinaPoint2}</li>
+              <li>{plazaLatinaPoint3}</li>
+            </ul>
+          </SectionRow>
+          <SectionRow subheader={globalCitizenTitle} className="we-gc-row">
+            <ul className="cv-list">
+              <li>{globalCitizenPoint1}</li>
+              <li>{globalCitizenPoint2}</li>
+            </ul>
+          </SectionRow>
+          <SectionRow subheader={nuffieldTitle} className="we-nuffield-row">
+            <ul className="cv-list">
+              <li>{nuffieldPoint1}</li>
+              <li>{nuffieldPoint2}</li>
+              <li>{nuffieldPoint3}</li>
+              <li>{nuffieldPoint4}</li>
+            </ul>
+          </SectionRow>
+        </Section>
+      </div>
     );
   }
 }

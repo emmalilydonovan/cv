@@ -26,26 +26,28 @@ class SkillsInterests extends React.Component {
         const pianoDesc = "Grade 6, ABRSM, 2015.";
  
         return (
-            <Section title={title} className="skills-interests-section">
-                <SectionRow subheader={compTitle}>
-                    {compDesc}
-                </SectionRow>
-                <SectionRow subheader={labTitle}>
-                    {labDesc}
-                </SectionRow>
-                <SectionRow subheader={sciComTitle}>
-                    {sciComDesc}
-                </SectionRow>
-                <SectionRow subheader={dancingTitle}>
-                    {dancingDesc}
-                </SectionRow>
-                <SectionRow subheader={walkingTitle}>
-                    {walkingDesc}
-                </SectionRow>
-                <SectionRow subheader={pianoTitle}>
-                    {pianoDesc}
-                </SectionRow>
-            </Section>
+            <div id="skills-interests-section">
+                <Section title={title} className="skills-interests-section">
+                    <SectionRow subheader={compTitle}>
+                        {compDesc}
+                    </SectionRow>
+                    <SectionRow subheader={labTitle}>
+                        {labDesc}
+                    </SectionRow>
+                    <SectionRow subheader={sciComTitle}>
+                        {sciComDesc}
+                    </SectionRow>
+                    <SectionRow subheader={dancingTitle}>
+                        {dancingDesc}
+                    </SectionRow>
+                    <SectionRow subheader={walkingTitle}>
+                        {walkingDesc}
+                    </SectionRow>
+                    <SectionRow subheader={pianoTitle}>
+                        {pianoDesc}
+                    </SectionRow>
+                </Section>
+            </div>
         );
     }
 }
