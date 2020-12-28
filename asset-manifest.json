@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ed-cv/static/css/main.105a0f76.chunk.css",
+    "main.js": "/ed-cv/static/js/main.69546931.chunk.js",
+    "main.js.map": "/ed-cv/static/js/main.69546931.chunk.js.map",
+    "runtime-main.js": "/ed-cv/static/js/runtime-main.72d03fcd.js",
+    "runtime-main.js.map": "/ed-cv/static/js/runtime-main.72d03fcd.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/ed-cv/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.3b646288.chunk.js": "/ed-cv/static/js/2.3b646288.chunk.js",
+    "static/js/2.3b646288.chunk.js.map": "/ed-cv/static/js/2.3b646288.chunk.js.map",
+    "static/js/3.ada2b3d3.chunk.js": "/ed-cv/static/js/3.ada2b3d3.chunk.js",
+    "static/js/3.ada2b3d3.chunk.js.map": "/ed-cv/static/js/3.ada2b3d3.chunk.js.map",
+    "index.html": "/ed-cv/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/ed-cv/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.105a0f76.chunk.css.map": "/ed-cv/static/css/main.105a0f76.chunk.css.map",
+    "static/js/2.3b646288.chunk.js.LICENSE.txt": "/ed-cv/static/js/2.3b646288.chunk.js.LICENSE.txt",
+    "static/media/ED_2020_CV.f71b1301.pdf": "/ed-cv/static/media/ED_2020_CV.f71b1301.pdf",
+    "static/media/butterflies-background-2.3.cec63d91.png": "/ed-cv/static/media/butterflies-background-2.3.cec63d91.png",
+    "static/media/emma-profile-pic.f30553ef.png": "/ed-cv/static/media/emma-profile-pic.f30553ef.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72d03fcd.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.3b646288.chunk.js",
+    "static/css/main.105a0f76.chunk.css",
+    "static/js/main.69546931.chunk.js"
+  ]
+}
