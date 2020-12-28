@@ -114,6 +114,10 @@ hr {
   color:#49d5ff !important;
 }
 
+.navbar.navbar.navbar-expand.navbar-light a.active-nav { 
+  color:#49d5ff !important;
+}
+
 .navbar.navbar-expand.navbar-light {
   position: sticky !important;
   top: 0 !important;
@@ -122,8 +126,8 @@ hr {
   text-align: center;
   display: block;
   padding: 20px 20px 15px 10px;
-
 }
+
 
 .section-rows {
   padding-left: 30px !important;
