@@ -1,6 +1,7 @@
 import React from "react";
 import {Navbar} from "react-bootstrap";
 import Scroll from 'react-scroll'
+import cvPdf from "../ED_2020_CV.pdf";
 const ScrollLink = Scroll.Link
 
 class Navigation extends React.Component {
@@ -60,6 +61,7 @@ class Navigation extends React.Component {
                 >
                     Contact
                 </ScrollLink>
+                <a href={cvPdf} download target="_blank">CV PDF</a>
             </Navbar>
             
         );
